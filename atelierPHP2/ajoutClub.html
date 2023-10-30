@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter un club</title>
+</head>
+<body>
+    <h1>Formulaire d'ajout de club</h1>
+    <form action="ajoutClub.php" method="POST">
+        <label for="id">ID du club:</label>
+        <input type="text" id="id" name="id" required><br><br>
+
+        <label for="nom">Nom du club:</label>
+        <input type="text" id="nom" name="nom" required><br><br>
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea><br><br>
+
+        <label for="adresse">Adresse:</label>
+        <input type="text" id="adresse" name="adresse" required><br><br>
+
+        <label for="domaine">Domaine:</label>
+        <input type="text" id="domaine" name="domaine" required><br><br>
+
+        <input type="submit" value="Envoyer">
+    </form>
+</body>
+</html>
